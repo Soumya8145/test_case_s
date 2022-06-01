@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Hubballi&family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+    
+    <style>
+      /* *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      } */
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 1400px;
+      }
+      #box1 {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Square Peg', cursive;
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        left: 34px;
+        top: 23px;
+        /* display: inline-block; */
+        color: white;
+        border: 2px solid yellow;
+      }
+      #box2 {
+        
+        font-family: 'Balsamiq Sans', cursive;
+        position: fixed;
+        right: 30px;
+        top: 13px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 2px solid yellow;
+      }
+    
+      #box2 ul li {
+        
+        float: left;
+        list-style: none;
+        /* margin: 3px 7px; */
+      }
+      #box2 ul li a {  
+        color: white;
+        text-decoration: none;
+        padding: 4px 4px;
+      }
+      #box2 ul li a:hover {
+        color: rgb(251, 255, 4);
+        
+      }
+      #cont1{
+        font-family: 'Balsamiq Sans', cursive;
+          margin-top: 200px;
+          margin-left: 40px;
+          padding:10px 10px;
+          font-size: 80px;
+          font-weight: bold;
+          color:white;
+      }
+      #cont2{
+        font-family: 'Balsamiq Sans', cursive;
+          margin-top: auto;
+          margin-left: 40px;
+          padding:10px 10px;
+          font-size: 20px;
+          
+          width:280px;
+          color:rgb(228, 222, 222);
+      }
+      #btn{
+          background-color: rgb(112, 64, 245);
+          border-radius: 8px;
+          margin-top: auto;
+          margin-left: 40px;
+          padding:10px 10px;
+          color: aliceblue;
+          border-color: blueviolet;
+      }
+      #btn:hover{
+          background-color: rgb(206, 93, 221);
+          /* color: rgb(25, 0, 255); */
+          
+      }
+      #a1{
+        text-decoration: none;
+        color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="box" id="box1">Med Boy</div>
+      <div class="box" id="box2">
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">How To Order</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="cont1">Need Medicines</div>
+    <div id="cont2">Get medicines Easy at 6% off on MRP on your door step <strong>Free Delivery</strong> </div>
+    <button id="btn"><a href="forms.html" id="a1">Click Here To Order</a></button>
+  </body>
+</html>
